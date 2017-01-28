@@ -57,7 +57,7 @@ gulp.task('move', function () {
 
 gulp.task('default', function () {
   gulp.start('connect', 'sass','htmlIncluder','move'),
-	gulp.watch(['dev/sass/styles.main.sass'], ['sass']),
+	gulp.watch(['dev/sass/**/*.sass'], ['sass']),
 	gulp.watch(['dev/**/*.html'], ['htmlIncluder']),
 	gulp.watch(['dev/img/**/*.*'], ['move']);
 });
