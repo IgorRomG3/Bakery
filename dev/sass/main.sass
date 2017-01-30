@@ -9,16 +9,28 @@ main
         line-height: 30px
         color: #56534c
         font-size: 48px
+        text-shadow: 0 7px 7px #a2a2a1
       p
+        margin-bottom: 70px
         color: #a47d5e
         font-size: 14px
         text-transform: uppercase
+        text-shadow: 0 7px 7px #a2a2a1
       p.description
+        margin-bottom: 45px
         color: #56534c
         font-family: Arial
         font-size: 14px
         font-weight: 400
         line-height: 24px
+      h4
+        margin-bottom: 45px
+        color: #56534c
+        font-family: Alegreya
+        font-size: 24px
+        font-weight: 700
+        line-height: 30px
+        text-shadow: 0 7px 7px #a2a2a1
       ul.chef
         height: 120px
         display: inline-block
@@ -27,6 +39,7 @@ main
           width: 111px
           height: 58px
           float: left
+          box-shadow: inset 0 20px 20px -20px #eaeae8,0 10px 20px -7px #eaeae8
           border-bottom: 1px solid #d7d5ca
           border-top: 1px solid #d7d5ca
           // text style for "chef"
@@ -35,6 +48,7 @@ main
           font-size: 24px
           font-weight: 400
           line-height: 50px
+          text-shadow: 0 7px 7px #a2a2a1
           &:nth-child(2)
             margin: 0 25px
             width: 110px
@@ -43,12 +57,25 @@ main
             box-shadow: 0 7px 9px rgba(0, 0, 0, 0.93)
             background-color: #fff
             background-image: url(../img/chif-pic.png)
+            background-repeat: no-repeat
+            background-position: center
     .cackes-photoes
       .cacke
         margin-bottom: 20px
         height: 250px
+        position: relative
         background-repeat: no-repeat
         background-size: cover
+        &::before
+          content: ''
+          position: absolute
+          top: 2%
+          left: 2%
+
+          width: 96%
+          height: 96%
+          box-sizing: border-box
+          border: 5px solid #fff
       .one
         background-image: url(../img/cake-1.png)
       .two
