@@ -1,5 +1,9 @@
 main
+  background-image: linear-gradient(225deg, #c4b9ae 0%, #fff 100%)
+  section
+    padding: 100px 0
   section.art-of-cakes
+    padding: 100px 0
     .about-chef
       text-align: center
       h3
@@ -66,6 +70,7 @@ main
         position: relative
         background-repeat: no-repeat
         background-size: cover
+        box-shadow: 0 10px 10px #000
         &::before
           content: ''
           position: absolute
@@ -84,3 +89,22 @@ main
         background-image: url(../img/cake-3.png)
       .four
         background-image: url(../img/cacke-4.png)
+  section.tasty-pancakes
+    height: 760px
+    background-image: url(../img/pancake-section-bg-.png)
+    .menu-slider
+      height: 512px
+      position: relative
+      background-color: rgba(255, 255, 255, .5)
+      &::after
+        content: ''
+        position: absolute
+        top: -40px
+        right: -100px
+
+        width: 200px
+        height: 200px
+        background-image: url(../img/menu-slider-after-bg.png)
+        background-repeat: no-repeat
+        background-position: center
+        background-size: cover
