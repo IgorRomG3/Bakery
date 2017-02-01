@@ -19,7 +19,7 @@ header {
     z-index: 5;
     position: absolute;
     bottom: -5%;
-    left: 50%;
+    left: 47%;
     width: 80px;
     height: 80px;
     border-radius: 100%;
@@ -93,31 +93,31 @@ main {
   background-image: linear-gradient(225deg, #c4b9ae 0%, #fff 100%); }
   main section {
     padding: 100px 0; }
+    main section h3 {
+      margin-top: 0;
+      font-family: Alegreya;
+      font-weight: 700;
+      line-height: 30px;
+      color: #56534c;
+      font-size: 48px;
+      text-shadow: 0 7px 7px #a2a2a1; }
+    main section p {
+      margin-bottom: 70px;
+      color: #a47d5e;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-shadow: 0 7px 7px #a2a2a1; }
+    main section p.description {
+      margin-bottom: 45px;
+      color: #56534c;
+      font-family: Arial;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px; }
   main section.art-of-cakes {
     padding: 100px 0; }
     main section.art-of-cakes .about-chef {
       text-align: center; }
-      main section.art-of-cakes .about-chef h3 {
-        margin-top: 0;
-        font-family: Alegreya;
-        font-weight: 700;
-        line-height: 30px;
-        color: #56534c;
-        font-size: 48px;
-        text-shadow: 0 7px 7px #a2a2a1; }
-      main section.art-of-cakes .about-chef p {
-        margin-bottom: 70px;
-        color: #a47d5e;
-        font-size: 14px;
-        text-transform: uppercase;
-        text-shadow: 0 7px 7px #a2a2a1; }
-      main section.art-of-cakes .about-chef p.description {
-        margin-bottom: 45px;
-        color: #56534c;
-        font-family: Arial;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 24px; }
       main section.art-of-cakes .about-chef h4 {
         margin-bottom: 45px;
         color: #56534c;
@@ -144,13 +144,7 @@ main {
           line-height: 50px;
           text-shadow: 0 7px 7px #a2a2a1; }
           main section.art-of-cakes .about-chef ul.chef li:nth-child(2) {
-            margin: 0 25px;
-            width: 110px;
-            height: 110px;
-            border-radius: 50%;
-            box-shadow: 0 7px 9px rgba(0, 0, 0, 0.93);
-            background-color: #fff;
-            background-image: url(../img/chif-pic.png);
+            margin: 0 25pxslider-pic url(../img/chif-pic.png);
             background-repeat: no-repeat;
             background-position: center; }
     main section.art-of-cakes .cackes-photoes .cacke {
@@ -195,3 +189,26 @@ main {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
+      main section.tasty-pancakes .menu-slider .slider-pic {
+        height: 512px;
+        background-image: url(../img/slider-photo.png); }
+      main section.tasty-pancakes .menu-slider .slider-description {
+        padding: 80px 0 0 85px;
+        height: 512px;
+        background-color: #fff;
+        background-image: url(../img/slider-descr-bg.png);
+        background-repeat: no-repeat;
+        background-position: right bottom; }
+      main section.tasty-pancakes .menu-slider .slider-variants {
+        width: 350px;
+        height: 90px; }
+        main section.tasty-pancakes .menu-slider .slider-variants li {
+          width: 90px;
+          height: 90px;
+          display: inline-block; }
+        main section.tasty-pancakes .menu-slider .slider-variants .one {
+          background-image: url(../img/slide-pic-one.png); }
+        main section.tasty-pancakes .menu-slider .slider-variants .second {
+          background-image: url(../img/slide-pic-two.png); }
+        main section.tasty-pancakes .menu-slider .slider-variants .third {
+          background-image: url(../img/slide-pic-three.png); }
