@@ -329,3 +329,61 @@ main {
             font-weight: 700;
             line-height: 30px;
             text-transform: uppercase; }
+  main section.jibarito-sandwich {
+    background-color: #f3f1e9;
+    text-align: center; }
+    main section.jibarito-sandwich .ingredients img {
+      box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5); }
+    main section.jibarito-sandwich .full-price-sandwitch {
+      margin: 0 auto;
+      width: 85%;
+      height: 556px;
+      position: relative;
+      border: 10px solid #fff;
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.54);
+      background-image: url(../img/Jibarito-sandwich-pic-4.png); }
+      main section.jibarito-sandwich .full-price-sandwitch .recipe-btn {
+        width: 171px;
+        height: 60px;
+        position: absolute;
+        bottom: -5%;
+        left: -5%;
+        border: 1px dashed #dfc691;
+        background-color: #fff; }
+        main section.jibarito-sandwich .full-price-sandwitch .recipe-btn a {
+          color: #dfc691;
+          font-family: Alegreya;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 60px;
+          text-transform: uppercase; }
+      main section.jibarito-sandwich .full-price-sandwitch .prices {
+        border: 1px solid #000;
+        position: absolute;
+        top: -8%;
+        right: 0; }
+        main section.jibarito-sandwich .full-price-sandwitch .prices .price {
+          margin-bottom: 4px;
+          padding-top: 30px;
+          width: 200px;
+          height: 200px;
+          background-color: #d6d4d3;
+          opacity: 0.8;
+          box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.9); }
+          main section.jibarito-sandwich .full-price-sandwitch .prices .price span.condition {
+            font-family: Alegreya;
+            font-weight: 700;
+            line-height: 30px;
+            color: #a47d5e;
+            font-size: 18px;
+            text-transform: uppercase; }
+          main section.jibarito-sandwich .full-price-sandwitch .prices .price span.number {
+            color: #56534c;
+            font-size: 60px;
+            text-transform: uppercase; }
+          main section.jibarito-sandwich .full-price-sandwitch .prices .price span.time {
+            color: #979285;
+            font-size: 18px; }
+        main section.jibarito-sandwich .full-price-sandwitch .prices .ready {
+          opacity: 1;
+          background-image: url(../img/sanwithc-price-bot.png); }
